@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 </head>
-<body>
+<body background= "img/background.jpg">
 
 	<form id="frm1">
-		Nombre: <input type="text" name="name" id="name"><br>
+		Nombre: <input type="text" name="name" id="name" alt="Submit" align="middle"><br>
 		Mail: <input type="text" name="email" id="email"><br>
 	</form>
 	<button onclick="myFunction()">Mostrar</button>
@@ -15,13 +15,8 @@
 	<p id="mostrarNombre"></p>
 	<p id="mostrarMail"></p>
 
-	<script>
-		function myFunction() {
-			var nombre = document.getElementById("name");
-			var email = document.getElementById("email");
-			document.getElementById("mostrarNombre").innerHTML = "Nombre:"+nombre.value;
-			document.getElementById("mostrarMail").innerHTML = "Email: "+email.value;
-		}
+	<script src ="js/javascripts.js">
+
 	</script>
 </body>
 </html>
